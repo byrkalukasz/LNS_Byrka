@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ce15d56-38a1-4180-bca1-863fdcba05b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/LsnByrka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/Pairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskAnswerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskOneResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskThreeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskThreeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskTwoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/enums/TaskEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/TaskAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/TaskStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskOneAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskThreeAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskTwoAnswer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ImXCff5V0i0gLH5FlG9Smaxgrt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Aplikacje\Java\LNS_Byrka\src\main\java" />
+      <recent name="E:\Aplikacje\Java\LNS_Byrka\src\main\pl.byrka" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LsnByrka">
+    <configuration name="LsnByrka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.byrka.LsnByrka" />
+      <module name="LNS_Byrka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.byrka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="LNS_Byrka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.LsnByrka" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LsnByrka" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ce15d56-38a1-4180-bca1-863fdcba05b5" name="Changes" comment="" />
+      <created>1670787640354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670787640354</updated>
+      <workItem from="1670787642501" duration="9452000" />
+      <workItem from="1670822634911" duration="726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
