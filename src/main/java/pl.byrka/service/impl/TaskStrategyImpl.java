@@ -31,11 +31,11 @@ public class TaskStrategyImpl implements TaskStrategy {
         for (File file : listOfFiles) {
             //log.info("Determinate strategy and answer for file " + file.getName());
             getInstanceOfTaskAnswer(file);
-            if (!file.getName().equals(TaskEnum.TASK3)) {
+            if (!file.getName().equals(TaskEnum.TASK3.gettDescription())) {
                 response = taskAnswer.resolveTask(readFromFile(file));
                 showResponse(response, file);
             } else {
-                response = taskAnswer.resolveTaskThree(readFromFileForTaskThree());
+                response = taskAnswer.resolveTaskThree(readFromFileForTaskThree(file));
                 showResponse(response, file);
             }
         }
@@ -65,13 +65,28 @@ public class TaskStrategyImpl implements TaskStrategy {
         return numbers;
     }
 
-    private TaskThreeRequest readFromFileForTaskThree() {
+    private TaskThreeRequest readFromFileForTaskThree(File file) {
         List<Integer> numbers = new ArrayList<>();
-        Integer count;
+        Integer count = 0;
+        try {
+            Scanner reader = new Scanner(file);
+            if (reader.hasNext())
+                count = reader.nextInt();
+            for (int i = 1; i <= count; i++){
+                if (reader.hasNextInt())
+                    numbers.add(reader.nextInt());
+                if (reader.hasNextInt())
+                    numbers.add(reader.nextInt());
+            }
+
+
+        } catch (FileNotFoundException ex){
+            System.out.println("An error occurred.");
+        }
 
         return TaskThreeRequest.builder()
-                .count(null)
-                .numbers(null)
+                .count(count)
+                .numbers(numbers)
                 .build();
     }
 

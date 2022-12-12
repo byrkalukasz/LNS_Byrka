@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce15d56-38a1-4180-bca1-863fdcba05b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/LsnByrka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/Pairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskAnswerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskOneResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskThreeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskThreeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskTwoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/enums/TaskEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/TaskAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/TaskStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskOneAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskThreeAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskTwoAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskThreeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/dto/TaskThreeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskThreeAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskThreeAnswer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/l.byrka/Documents/GitHub/LNS_Byrka"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Aplikacje\Java\LNS_Byrka\src\main\java" />
@@ -105,6 +90,7 @@
       <updated>1670787640354</updated>
       <workItem from="1670787642501" duration="9452000" />
       <workItem from="1670822634911" duration="726000" />
+      <workItem from="1670831875228" duration="6748000" />
     </task>
     <servers />
   </component>
@@ -126,14 +112,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskThreeAnswer.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskStrategyImpl.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/pl.byrka/service/impl/TaskThreeAnswer.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
